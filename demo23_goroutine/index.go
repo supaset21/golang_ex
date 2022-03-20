@@ -5,18 +5,17 @@ import (
 	"time"
 )
 
-func run1() {
+const count = 100
 
-	for i := 0; i < 100; i++ {
-		// fmt.Println("Run1...")
+func run1() {
+	for i := 0; i < count; i++ {
 		fmt.Printf("Run1 %d \n", i)
 	}
 
 }
 func run2() {
-	for i := 0; i < 100; i++ {
+	for i := 0; i < count; i++ {
 		fmt.Printf("Run2 %d \n", i)
-		// fmt.Println("Run2...")
 	}
 
 }
